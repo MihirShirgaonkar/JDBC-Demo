@@ -10,7 +10,7 @@ public class ImagesSave {
 		try {
 			
 			Class.forName("com.mysql.jc.jdbc.Driver");
-		
+			
 			String url = "jdbc:mysql://localhost:3306/JDBCDemo";
 			String userName = "root";
 			String password = "mihir123";
