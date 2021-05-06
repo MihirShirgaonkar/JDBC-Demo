@@ -22,7 +22,7 @@ public class InsertIntoTalel {
 		PreparedStatement pstmt = con.prepareStatement(querry);
 		
 		//set the values to query
-		pstmt.setString(1, "Mihir Shirgaonkar");
+		pstmt.setString(1, "Rohit");
 		pstmt.setString(2, "Mahad");
 		
 		pstmt.executeUpdate();
